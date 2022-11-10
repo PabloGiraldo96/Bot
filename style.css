@@ -1,0 +1,49 @@
+body{
+margin: 0;
+padding: 0;
+background-color: rgb(230, 250, 19);
+}
+
+#particles-js{
+display:flex;
+-webkit-clip-path: circle(100% at 0 10%);
+clip-path: circle(92% at 0 55%);
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+text-align: center;
+background-color: rgb(16, 16, 145);
+z-index: -1;
+}
+
+.title{
+color: aliceblue;
+display: block;
+font-size: 3rem;
+letter-spacing: 3px;
+font-weight: bolder;
+font-family: 'Noto Sans', sans-serif;
+position: absolute;
+}
+
+.sub-title{
+color: aliceblue;
+letter-spacing: 2px;
+display: block;
+font-size: 2rem;
+font-weight: bolder;
+font-family: 'Noto Sans', sans-serif;
+position: absolute;
+top: 10rem;
+left: 16rem;
+}
+
+.img{
+width:32rem ;
+height:33rem ;
+position: absolute;
+left: 40rem;
+bottom: 0rem;
+z-index: 2;
+}
