@@ -28,10 +28,10 @@ position: absolute;
 }
 
 .sub-title{
-color: aliceblue;
+color: rgb(255, 255, 255);
 letter-spacing: 2px;
 display: block;
-font-size: 2rem;
+font-size: 3rem;
 font-weight: bolder;
 font-family: 'Noto Sans', sans-serif;
 position: absolute;
@@ -43,7 +43,55 @@ left: 16rem;
 width:32rem ;
 height:33rem ;
 position: absolute;
-left: 40rem;
+left:50rem;
 bottom: 0rem;
-z-index: 2;
+z-index: 3;
+}
+
+@media screen and (max-width: 450px) {
+	h1{
+	font-size: 1.1rem;
+	font-weight: 200;
+	display: block;
+	position: absolute;
+	left:2rem;
+	}
+}
+
+.sub-title{
+	font-size: 1 rem;
+	font-weight: 100;
+	display: block;
+	position: absolute;
+	left: 2rem;
+	font-weight: bolder;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+width:fit-content;
+height: auto;
+
+}
+
+@media screen and (max-width: 450px) {
+.img{
+width: fit-content;
+position: absolute;
+left: 12rem;
+bottom: 0rem;
+width: 15rem;
+height: 17rem;
+}
+}
+
+
+@media screen and (max-width: 340px) {
+	h1{
+	font-size: 0.9rem;
+	font-weight: 100;
+	display: block;
+	position: absolute;
+	left:1em;
+	}
 }
