@@ -2,6 +2,7 @@ body{
 margin: 0;
 padding: 0;
 background-color: rgb(230, 250, 19);
+z-index: -1;
 }
 
 #particles-js{
@@ -14,7 +15,7 @@ display: flex;
 justify-content: center;
 text-align: center;
 background-color: rgb(16, 16, 145);
-z-index: -1;
+
 }
 
 .title{
@@ -43,9 +44,8 @@ left: 16rem;
 width:32rem ;
 height:33rem ;
 position: absolute;
-left:50rem;
+left:40.5rem;
 bottom: 0rem;
-z-index: 3;
 }
 
 @media screen and (max-width: 450px) {
